@@ -35,6 +35,8 @@ class ThoughtfulCollectionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Collection"
+        navigationController?.navigationBar.prefersLargeTitles = true
         setUpCollectionView()
     }
 
